@@ -12,5 +12,4 @@ function onhandleclick(){
 }
     
 
-
 transform.addEventListener("click", onhandleclick); 
