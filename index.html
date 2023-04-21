@@ -12,19 +12,19 @@
 <body>
     <div class="nav">
         <div class="line"></div>
-        <div class="flex--container">
-            <img src="assets/icon/logo.svg" />
-            <img src="assets/icon/home.svg" /><span class="home">홈</span>
-            <img src="assets/icon/search.svg" /><span class="search">검색</span>
-            <img src="assets/icon/find.svg" /><span class="find">탐색 탭</span>
-            <img src="assets/icon/reels.svg" /><span class="reels">릴스</span>
-            <img src="assets/icon/message.svg" /><span class="message">메세지</span>
-            <img src="assets/icon/like.svg" /><span class="like">알림</span>
-            <img src="assets/icon/add.svg" /><span class="add">만들기</span>
-            <img src="assets/profile/default.png" /><span class="default">프로필</span>
-            <img src="assets/icon/menu.svg" /><span class="menu">더보기</span> 
+        <div class="flex--container"> <!--span 태그 간격 맞추기-->
+            <div class="icon--img"><img src="assets/icon/logo.svg" /></div>
+            <div class="icon--img"><img src="assets/icon/home.svg" /><span class="home">홈</span></div>
+            <div class="icon--img"><img src="assets/icon/search.svg" /><span class="search">검색</span></div>
+            <div class="icon--img"><img src="assets/icon/find.svg" /><span class="find">탐색 탭</span></div>
+            <div class="icon--img"><img src="assets/icon/reels.svg" /><span class="reels">릴스</span></div>
+            <div class="icon--img"><img src="assets/icon/message.svg" /><span class="message">메세지</span></div>
+            <div class="icon--img"><img src="assets/icon/like.svg" /><span class="like">알림</span></div>
+            <div class="icon--img"><img src="assets/icon/add.svg" /><span class="add">만들기</span></div>
+            <div class="icon--img"><img class="default--img" img src="assets/profile/default.png" /><span class="default">프로필</span></div>
+            <div class="icon--img"><img src="assets/icon/menu.svg" /><span class="menu">더보기</span> </div>
         </div>
-        
+
     </div>
     <section id="center">
         <div class="story">
@@ -42,8 +42,8 @@
                     <span class="story--text">instagramer</span>
                 </li>
                 <li class="story4">
-                    <img class="story-img1" src="assets/profile/profile4.png" />
-                    <span class="story-text">instagramer</span>
+                    <img class="story--img1" src="assets/profile/profile4.png" />
+                    <span class="story--text">instagramer</span>
                 </li>
                 <li class="story4">
                     <img class="story--img1" src="assets/profile/profile5.png" />
@@ -80,12 +80,14 @@
             </ul>
         </div>
         <div id="post">
+
+
             <div class="poster">
                 <div class="poster--profile">
                     <img class="poster--profile--img" src="assets/profile/profile4.png" align="middle" />
-                    <span class="poster--text"><font size="3"><strong>instargramer</strong></font></span>
-                    <span class="poster--hour"><font color="gray" font size="2">&#149;3시간</font></span>
-                    <img class="poster--text-icon" src="assets/icon/detail.svg">
+                    <span class="poster--text">instargramer</span>
+                    <span class="poster--hour">&#149;3시간</span>
+                    <img class="poster--text--icon" src="assets/icon/detail.svg">
                 </div>
                 <img class="poster--img" src="assets/article/article2.png" />
                 <div class="poster--icon1">
@@ -94,48 +96,58 @@
                     <img class="poster--message" src="assets/icon/message.svg" />
                     <img class="poster--bookmark" src="assets/icon/bookmark.svg" />
                 </div>
-                <div class="like"><p><strong>좋아요 214개</strong></p></div><br>
-                <div class="poster--title"><p>Instargramer 개발자 밈 모음 ver.3</p></div><br>
-                <div class="comment"><p>댓글 달기...</p></div>
+                <div class="poster--like">좋아요 214개</div>
+                <div class="poster--title"><span>Instargramer 개발자 밈 모음 ver.3</span></div>
+                <div class="comment"><span>댓글 달기...</span></div>
             </div>
             <hr>
         </div>
             <div class="poster">
                 <div class="poster--profile">
                     <img class="poster--profile--img" src="assets/profile/profile4.png" align="middle">
-                    <span class="poster--text"><font size="3"><strong>instargramer</strong></font></span>
-                    <span class="poster--hour"><font color="gray" font size="2">&#149;3시간</font></span>
+                    <span class="poster--text">instargramer</span>
+                    <span class="poster--hour">&#149;3시간</span>
                     <img class="poster--text--icon" src="assets/icon/detail.svg">
+                </div>
             </div>
-            <img class="poster--img" src="assets/article/article2.png">
+            <img class="poster--img" src="assets/article/article2.png" />
             <hr>
         </div>
     </section>
     
     <div class="side">
-        <img class="profile1" src="assets/profile/default.png" align="middle" /><strong class="profile--name">ubin_ing</strong> &emsp;&emsp;&emsp;&emsp;&emsp;
-            <span class="fow_color">전환</span><br>
-            <font size="2.5" color="gray">회원님을 위한 추천</font>&emsp;&emsp;&emsp;&emsp;<font size="2.5"><strong>모두보기</strong></font><br><br>
-        <img class="profile" src="assets/profile/profile10.png" align="middle" />
-            <font size="2.5"><strong>Instargramer</strong><br>
-            <font color="gray">instargramer, instargramer,instar...</font></font>
-            <span class="fow_color">팔로우</span><br>
-        <img class="profile" src="assets/profile/profile6.png" align="middle" />
-            <font size="2.5"><strong>Instargramer</strong><br>
-            <font color="gray">instargramer, instargramer,instar...</font></font>
-            <span class="fow_color">팔로우</span><br>
-        <img class="profile" src="assets/profile/profile7.png" align="middle" />
-            <font size="2.5"><strong>Instargramer</strong><br>
-            <font color="gray">instargramer, instargramer,instar...</font></font>
-            <span class="fow_color">팔로우</span><br>
-        <img class="profile" src="assets/profile/default.png" align="middle" />
-            <font size="2.5"><strong>Instargramer</strong><br>
-            <font color="gray">instargramer, instargramer,instar...</font></font>
-            <span class="fow_color">팔로우</span><br>
-        <img class="profile" src="assets/profile/default.png" align="middle" />
-            <font size="2.5"><strong>Instargramer</strong><br>
-            <font color="gray">instargramer, instargramer,instar...</font></font>
-            <span class="fow_color">팔로우</span><br>
+        <div>
+            <img class="profile1" src="assets/profile/default.png" align="middle" /><strong class="profile--name">ubin_ing</strong>
+            <span class="fow_color">전환</span><!--태그 만들어주기, 밑에까지 히힛-->
+        </div>
+        <div>
+            <span class="recommend">회원님을 위한 추천</span><span class="all--see">모두보기</span>
+        </div>
+        <div>
+            <img class="profile" src="assets/profile/profile10.png" align="middle" />
+            <span class="user--name">Instargramer</span>
+            <div class="user--name2">instargramer, instargramer,instar...<span class="fow1_color">팔로우</span></div>
+        </div>
+        <div>
+            <img class="profile" src="assets/profile/profile6.png" align="middle" />
+            <span class="user--name">Instargramer</span>
+            <div class="user--name2">instargramer, instargramer,instar...<span class="fow1_color">팔로우</span></div>
+        </div>
+        <div>
+            <img class="profile" src="assets/profile/profile7.png" align="middle" />
+            <span class="user--name">Instargramer</span>
+            <div class="user--name2">instargramer, instargramer,instar...<span class="fow1_color">팔로우</span></div>
+        </div>
+        <div>
+            <img class="profile" src="assets/profile/default.png" align="middle" />
+            <span class="user--name">Instargramer</span>
+            <div class="user--name2">instargramer, instargramer,instar...<span class="fow1_color">팔로우</span></div>
+        </div>
+        <div>
+            <img class="profile" src="assets/profile/default.png" align="middle" />
+            <span class="user--name">Instargramer</span>
+            <div class="user--name2">instargramer, instargramer,instar...<span class="fow1_color">팔로우</span></div>
+        </div>
     </div>
     
     

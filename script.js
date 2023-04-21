@@ -1,5 +1,5 @@
 const transform = document.querySelector(".fow_color");
-const profilename = document.querySelector(".profile-name");
+const profilename = document.querySelector(".profile--name");
 function onhandleclick(){
     const change = prompt("아이디를 입력하세요");
     

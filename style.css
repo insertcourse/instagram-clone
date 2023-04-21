@@ -7,8 +7,9 @@
 .nav {
 	width: 17vw;
 	margin: 15px 20px;
+	flex-direction: row;
 	align-items: stretch;
-	position: fixed;
+	position: fixed; /*화면고정*/
 }
 
 .line {
@@ -17,6 +18,83 @@
     margin-left: 17vw;
 	position:absolute;
 }
+.flex--container{
+	display: flex;
+	flex-direction: column;
+	width: 17vw;
+}
+.logo{
+	font-size: 30px;
+	height: 20px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+.home{
+	line-height: 5;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+.search{
+	line-height: 5;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+.find{
+	line-height: 5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.reels{
+	line-height: 5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.message{
+	line-height: 5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.like{
+	line-height: 5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.add{
+	line-height: 5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.default{
+	display: flex;
+	line-height: 5;
+	height: 25px;
+	flex-direction: column;
+	text-align: center;
+}
+.menu{
+	line-height: 5;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.icon--img{
+	display: flex;
+	width: 100%;
+	height: 70px;
+}
+.default--img{
+	width: 40px;
+	height: 40px;
+}
+
 
 /*center*/
 #center {
@@ -33,28 +111,25 @@
 	white-space: nowrap;
 	overflow: auto; width: 600px; height: 150px;
 }
-.instar-story {
+.story--list {
 	display: flex;
 	list-style-type: none;
 	overflow: auto;
 }
-.instar-story::-webkit-scrollbar {
+.story--list::-webkit-scrollbar {
 	display: none;
 }
 li {
 	float: left;
 }
-.story-img1 {
+.story--img1 {
 	display: flex;
-	margin-top: 30px;
-	margin-left: 8px;
-	width: 50px;
+	margin: 30px 0 0 8px;
 	width: 50px;
 	border-radius: 70%;
 }
-.story-text {
+.story--text {
 	font-size: small;
-	margin-top: 1px;
 	text-align: center;
 }
 .story2 {
@@ -87,78 +162,78 @@ li {
 .story11 {
 	margin-left: 4px;
 }
-.poster-section {
+.poster--section {
 	display: flex;
 }
-.poster-profile {
+.poster--profile {
 	display: flex;
-	flex-direction: row;
 	right: 330px;
 	margin-top: 35px;
 }
-.poster-profile-img {
+.poster--profile--img {
 	display: flex;
-	flex-direction: row;
 	margin-left: 90px;
 	width: 40px;
 	height: 40px;
 	border-radius: 70%;
 	margin-top: 1px;
 }
-.poser-text {
+.poster--text {
 	display: flex;
-	flex-direction: row;
-	width: 30px;
-	height: 30px;
-	margin-top: 40px;
+	font-size: 17px;
+	font-weight: bold;
 }
-.poster.hour {
+.poster--hour {
 	display: flex;
-	margin-left: 60px;
+	margin-left: 15px;
+	color: gray;
+	font-size: 15px;
+	margin-top: 4px;
 }
-.poster-text-icon {
+.poster--text--icon {
 	display: flex;
-	margin-left: 230px;
+	margin-left: 240px;
 }
-.poster-img {
+.poster--img {
 	display: flex;
 	width: 500px;
 	margin-left: 90px;
 }
-.poster-icon {
+.poster--icon1 {
 	display: flex;
 	flex-direction: row;
 }
-.poster-like {
+.poster--like {
 	display: flex;
 	margin-left: 80px;
 	margin-top: 10px;
 }
-.poster-comment {
+.poster--comment {
 	display: flex;
 	flex-direction: row;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.poster--message {
+	display: flex;
+	flex-direction: row;
+	margin-left: 13px;
+	margin-top: 11px;
+}
+.poster--bookmark {
+	display: flex;
+	flex-direction: row;
+	margin-left: 370px;
+	margin-top: 10px;
+}
+.poster--like {
+	display: flex;
+	margin-left: 90px;
+}
+.poster--title {
+	display: flex;
 	margin-left: 80px;
-	margin-top: 10px;
-}
-.poster-message {
-	display: flex;
-	flex-direction: row;
-	margin-left: 80px;
-	margin-top: 10px;
-}
-.poster-bookmark {
-	display: flex;
-	flex-direction: row;
-	margin-left: 550px;
-	margin-top: 10px;
-}
-.like {
-	display: flex;
-	margin-left: 70px;
-}
-.poster-title {
-	display: flex;
-	margin-left: 70px;
+	margin-bottom: 30px;
 }
 .comment {
 	display: flex;
@@ -173,6 +248,8 @@ hr {
 
 /*side*/
 .side{
+	display: flex;
+	flex-direction: column;
 	width: 27vw;
 	position:absolute;
 	right: 40px;
@@ -183,6 +260,7 @@ hr {
 	width: 50px;
 	height: 50px;
 	border-radius: 70%;
+	margin: 7px;
 }
 .profile{
 	width: 30px;
@@ -194,10 +272,30 @@ hr {
 	height: 50px;
 	border-radius: 70%;
 }
-.font1 {
-	color:gray;
-}
 .fow_color{
 	color: blue;
-	font-size: small;
+	font-size: 13px;
+	margin-left: 80px;
+}
+.fow1_color{
+	color: blue;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.recommend{
+	font-size: 15px;
+	color: gray;
+}
+.all--see{
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 70px;
+}
+.user--name{
+	font-size: 15px;
+	font-weight: bold;
+}
+.user--name2{
+	font-size: 13px;
+	color: gray;
 }
