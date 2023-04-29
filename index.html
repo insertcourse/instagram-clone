@@ -1,15 +1,186 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="./style.css" rel="stylesheet">
     <title>Instagram</title>
 </head>
-
 <body>
+    <div id="container">
+        <aside id="menubar">
+            <img class="menubar--logo" src="./assets/icon/logo.svg" />
+        <div id="home">
+            <img class="menubar--home" src="./assets/icon/home.svg" />
+            <span class="home--text">홈</span>
+        </div>
+        <div id="search">
+            <img class="menubar--search" src="./assets/icon/search.svg" />
+            <span class="search--text">검색</span>
+        </div>
+        <div id="find">
+            <img class="menubar--find" src="./assets/icon/find.svg" />
+            <span class="find--text">탐색 탭</span>
+        </div>
+        <div id="reels">
+            <img class="menubar--reels" src="./assets/icon/reels.svg" />
+            <span class="reels--text">릴스</span>
+        </div>
+        <div id="message">
+            <img class="menubar--message" src="./assets/icon/message.svg" />
+            <span class="message--text">메세지</span>
+        </div>
+        <div id="like">
+            <img class="menubar--like" src="./assets/icon/like.svg" />
+            <span class="like--text">알림</span>
+        </div>
+        <div id="add">
+            <img class="menubar--add" src="./assets/icon/add.svg" />
+            <span class="add--text">만들기</span>
+        </div>
+        <div id="profile">
+            <img class="menubar--profile"  src="./assets/profile/default.png" />
+            <span class="profile--text">프로필</span>
+        </div>
+        <div id="menu">
+            <img class="menubar--menu" src="./assets/icon/menu.svg" />
+            <span class="menu--text">더보기</span>
+        </div>
+        </aside>
+        <section id="medium">
+        <div class="story">
+            <ul class="insta--story">
+                <li>
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile1.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-2">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile2.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-3">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile3.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-4">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile4.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-5">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile5.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-6">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile6.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-7">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile7.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-8">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile8.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-9">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile9.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li>
+                <li class="story-10">
+                    <div class="story--img"><img class="story--in--img" src="./assets/profile/profile10.png" /></div>
+                    <div class="text"><a class="story--text">instagramer</a></div></li> 
+            </ul>
+        </div>
 
+        <div id="posts">
+            <div class="poster">
+                <div class="poster--profile">
+                    <div><img class="poster--profile--img" src="./assets/profile/profile4.png" /></div>
+                    <div><span class="poster--text">instagramer</span></div>
+                    <div><span class="poster--text--hour">&#149;3시간 전</span></div>
+                    <div><img class="poster--text--detail" src="./assets/icon/detail.svg" /></img></div>
+                </div>
+                <div><img class="poster--img" src="./assets/article/article3.png" /></img></div>
+                    <div class="poster--detail">
+                    <div><img class="poster--like" src="./assets/icon/like.svg" /></div>
+                    <div><img class="poster--comment" src="./assets/icon/comment.svg" /></div>
+                    <div><img class="poster--share" src="./assets/icon/message.svg" /></div>
+                    <div><img class="poster--bookmark" src="./assets/icon/bookmark.svg" /></div>
+                    </div>
+                <div class="text--like">
+                    <span>좋아요 214개</span>
+                </div>
+                <div class="text--comment">
+                    <span>댓글 달기...</span>
+                </div>
+                    <hr>
+            </div>
+                <div class="poster">
+                    <div class="poster--profile">
+                        <div><img class="poster--profile--img" src="./assets/profile/profile11.png" /></div>
+                        <div><span class="poster--text">instagramer</span></div>
+                        <div><span class="poster--text--hour">&#149;3시간 전</span></div>
+                        <div><img class="poster--text--detail" src="./assets/icon/detail.svg" /></img></div>
+                    </div>
+                    <div><img class="poster--img" src="./assets/article/article2.png" /></div>
+                    <div class="poster--detail">
+                        <div><img class="poster--like" src="./assets/icon/like.svg" /></div>
+                        <div><img class="poster--comment" src="./assets/icon/comment.svg" /></div>
+                        <div><img class="poster--share" src="./assets/icon/message.svg" /></div>
+                        <div><img class="poster--bookmark" src="./assets/icon/bookmark.svg" /></div>
+                    </div>
+                    <div class="text--like">
+                        <span>좋아요 84개</span>
+                    </div>
+                    <div class="text--comment">
+                        <span>댓글 달기...</span>
+                    </div>
+                    <hr>
+                </div>
+        </div>
+        </section>
+        <div id="transform">
+            <div class="transform--profile">
+                <div><img class="transform--profile--default" src="./assets/profile/default.png" /></div>
+                <div><span class="transform--profile--name">winternuary_</span></div>
+                <div class="transform--text"><span class="change-name">전환</span></div>
+            </div>
+            <div class="recommend">
+                <div><span class="recommend--text">회원님을 위한 추천</div>
+                <div><span class="recommend--all">모두보기</span></div>
+            </div>
+            <div>
+                <div class="follow">
+                    <div><img class="follow--img" src="./assets/profile/profile3.png" /></div>
+                    <div>
+                        <div><span class="follow--profile--id">instagramer</span></div>
+                        <div><span class="follow--profile--name">instagramer</span></div>
+                    </div>
+                    <div><span class="follow--follow">팔로우</span></div>
+                </div>
+                <div class="follow">
+                    <div><img class="follow--img" src="./assets/profile/profile5.png" /></div>
+                    <div>
+                        <div><span class="follow--profile--id">instagramer</span></div>
+                        <div><span class="follow--profile--name">instagramer</span></div>
+                    </div>
+                    <div><span class="follow--follow">팔로우</span></div>
+                </div>
+                <div class="follow">
+                    <div><img class="follow--img" src="./assets/profile/profile7.png" /></div>
+                    <div>
+                        <div><span class="follow--profile--id">instagramer</span></div>
+                        <div><span class="follow--profile--name">instagramer</span></div>
+                    </div>
+                    <div><span class="follow--follow">팔로우</span></div>
+                </div>
+                    <div class="follow">
+                    <div><img class="follow--img" src="./assets/profile/profile9.png" /></div>
+                    <div>
+                        <div><span class="follow--profile--id">instagramer</span></div>
+                        <div><span class="follow--profile--name">instagramer</span></div>
+                    </div>
+                    <div><span class="follow--follow">팔로우</span></div>
+                </div>
+                <div>
+                    <p class="meta">&copy 2023 INSTAGRAM FROM META</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-
+<script src="script.js"></script>
 </html>

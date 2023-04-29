@@ -3,3 +3,447 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+#container {
+	display: flex;
+}
+
+#menubar{
+    width: 17vw;
+    flex-direction: column;
+    position: fixed;
+    font-weight: bold;
+    border-right: 1px solid rgb(224, 220, 220);
+}
+/* logo */
+.menubar--logo{
+    display: flex;
+    margin: 40px;
+    width: 103px;
+    height: 29px;
+    fill: none;
+}
+
+/* home */
+.menubar--home{
+    display: flex;
+    margin: 0;
+    width: 22px;
+    height: 23px;
+    fill: none;
+}
+#home{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.home--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* search */
+.menubar--search{
+    display: flex;
+    margin: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
+}
+#search{
+    display: flex;
+    margin: 4px 0;
+    padding: 12px;
+    width: 200px;
+    margin-left: 15px;
+}
+.search--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* find */
+.menubar--find{
+    display: flex;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    
+}
+#find{
+    display: flex;
+    margin: 4px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.find--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* reels */
+.menubar--reels{
+    display: flex;
+    margin: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
+}
+#reels{
+    display: flex;
+    margin: 4px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.reels--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* message */
+.menubar--message{
+    display: flex;
+    margin: 0;
+    width: 23px;
+    height: 20px;
+    fill: none;
+}
+#message{
+    display: flex;
+    margin: 4px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.message--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* like */
+.menubar--like{
+    display: flex;
+    margin: 0;
+    width: 24px;
+    height: 21px;
+    fill: none;
+
+}
+#like{
+    display: flex;
+    margin: 4px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.like--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+/* add */
+.menubar--add{
+    display: flex;
+    margin: 0;
+    width: 23px;
+    height: 23px;
+    fill: none;
+}
+#add{
+    display: flex;
+    margin: 4px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.add--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+
+/* profile */
+.menubar--profile{
+    display: flex;
+    margin: 0;
+    width: 23px;
+    height: 20px;
+    fill: none;
+}
+#profile{
+    display: flex;
+    margin: 4px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.profile--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+}
+
+/* menu */
+.menubar--menu{
+    display: flex;
+    margin: 0;
+    width: 21px;
+    height: 19px;
+    fill: none;
+}
+#menu{
+    display: flex;
+    margin: 170px 15px;
+    padding: 12px;
+    width: 200px;
+}
+.menu--text{
+    display: flex;
+    padding-left: 12px;
+    height: 23px;
+}
+
+
+
+
+/* 중간섹션 */
+#medium{
+    display: flex;
+    width: 56vw;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-left:17vw; /*메뉴바를 fixed로 고정했을 때 화면 겹침 해결방법*/
+    
+}
+.story{
+    display: flex;
+    margin: 16px 0px 0px;
+    padding: 16px 0px;
+    white-space:nowrap; 
+    overflow:auto;  width:600px; height:150px;
+}
+.insta--story{
+    display: flex;
+    list-style-type: none;
+    overflow: auto;
+    
+}
+.insta--story::-webkit-scrollbar {
+    display: none;
+    cursor: pointer;
+}
+
+
+li {
+    float: left; /*li 가로정렬 */
+}
+
+.story--in--img{
+    display: flex;
+    margin: 30px 8px 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 70%;
+}
+
+.story--text{
+    font-size: small;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.poster--section{
+    display: flex;
+}
+.poster--profile{
+    display: flex;
+    margin-top: 30px;
+}
+.poster--profile--img{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 30px 0px 0px 50px;
+    border-radius: 70%;
+}
+.poster--text{
+    display:flex;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    margin: 30px 0px 0px 8px;
+    font-size: 13px;
+}
+.poster--text--hour{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 250px;
+    font-size: 13px;
+}
+.poster--text--detail{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.poster--img{
+    display: flex;
+    width: 500px;
+    margin: 10px 0px 0px 50px;
+}
+
+.poster--detail{
+    display: flex;
+}
+.poster--like{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0px 0px 50px;
+}
+.poster--comment{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0px 0px 15px;
+}
+.poster--share{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0px 0px 15px;
+}
+.poster--bookmark{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0px 0px 375px;
+}
+
+.text--like{
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0px 0px 50px;
+}
+.text--comment{
+    display: flex;
+    font-size: 12px;
+    margin: 10px 0px 0px 50px;
+    color: rgb(161, 161, 161);
+}
+
+hr{
+    display: flex;
+    width: 500px;
+    margin: 10px 0px 0px 50px;
+}
+
+.transform--profile{
+    display: flex;
+    margin: 30px 0px 0px 50px;
+}
+
+.transform--profile--default{
+    display: flex;
+    margin: 30px 0px 0px 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 70%;
+}
+
+#transform{
+display: flex;
+flex-basis: 17vw;
+flex-direction: column;
+}
+
+.transform--profile--name{
+    display: flex;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    margin: 45px 0px 0px 20px;
+    font-size: 13px;
+}
+
+.transform--text{
+    display: flex;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    margin: 45px 0px 0px 100px;
+    font-size: 13px;
+    color: blue;
+}
+
+.recommend{
+    display: flex;
+    margin: 7px 0px 0px 57px;
+    }
+
+.recommend--text{
+    margin-left: 20px;
+    display: flex;
+    font-size: 13px;
+    color: rgb(148, 145, 145);
+}
+
+.recommend--all{
+    display: flex;
+    font-size: 13px;
+    margin-left: 60px;
+}
+
+.follow{
+    display: flex;
+    margin-left: 30px;
+}
+.follow--img{
+    display:flex;
+    margin: 30px 0px 0px 50px;
+    width: 32px;
+    height: 32px;
+    border-radius: 70%;
+}
+
+.follow--profile--id{
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    margin: 30px 0px 0px 8px;
+}
+
+.follow--profile--name{
+    display: flex;
+    margin-left: 8px;
+    font-size:8px;
+    color: rgb(188, 184, 184);
+}
+
+.follow--follow{
+    display: flex;
+    margin: 35px 0px 0px 90px;
+    font-size: 13px;
+    color: blue;
+}
+
+.meta{
+    display: flex;
+    margin: 200px 0px 0px 70px;
+    font-size: 12px;
+    color: rgb(199, 196, 196);
+}
